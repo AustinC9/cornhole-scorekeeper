@@ -37,3 +37,22 @@
     transform: translateY(0px);
   }
 }
+.App {
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+}
+
+.team1-counter,
+.team2-counter {
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+}
+

@@ -9,11 +9,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Team1Counter />
-        <Team2Counter />
+
+        <div className="counter-container">
+          <div className="team1-counter">
+            <Team1Counter />
+          </div>
+          <div className="team2-counter">
+            <Team2Counter />
+          </div>
+        </div>
       </header>
     </div>
   );
 }
 
 export default App;
+
